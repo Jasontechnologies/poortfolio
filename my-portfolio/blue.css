@@ -1,0 +1,21 @@
+:root{
+	--mainColor:rgb(64, 127, 187);
+	--background-image :linear-gradient(-105deg, #615b97 0%, #618ed3 74%);
+
+	--secondaryColor:#618ed3;
+
+	--borderColor:#385458;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgba(56, 83, 109, 0.8);
+	--previewShadow:#3f6c81;
+
+
+	--buttonColor:#3f6c81;
+
+
+}
