@@ -1,21 +1,12 @@
-:root{
-	--mainColor:rgb(119, 81, 141);
-	--background-image :linear-gradient(-105deg, #ba5370 0%, #b686cc 74%);
-
-	--secondaryColor:#b686cc;
-
-	--borderColor:#1d1520;
-
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
-
-	--themeDotBorder:#FFF;
-
-	--previewBg:rgb(29, 21, 32, 0.8);
-	--previewShadow:#4e3b55;
-
-
-	--buttonColor:#8534a3;
-
-
+ :root{
+	--mainColor:#171717;
+	--background-image: linear-gradient(135deg, #171717 0%, #262626 65%, #91cf28 100%);
+	--secondaryColor:#222222;
+	--borderColor:#d8f5a2;
+	--mainText:#ffffff;
+	--secondaryText:#e3e3e3;
+	--themeDotBorder:#ffffff;
+	--previewBg:rgba(30, 30, 30, 0.92);
+	--previewShadow:#b8e35a;
+	--buttonColor:#7fbf00;
 }
