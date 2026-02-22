@@ -1,0 +1,38 @@
+http:
+  middlewares:
+    jwot-auth-limit:
+      rateLimit:
+        average: 30
+        burst: 20
+        period: 1m
+
+    jwot-chat-limit:
+      rateLimit:
+        average: 120
+        burst: 60
+        period: 1m
+
+    jwot-contact-limit:
+      rateLimit:
+        average: 20
+        burst: 10
+        period: 1h
+
+  routers:
+    auth-router:
+      rule: "PathPrefix(`/auth/`)"
+      service: jwot-web
+      middlewares:
+        - jwot-auth-limit
+
+    chat-router:
+      rule: "Path(`/chat/message`) || Path(`/support/complaints`)"
+      service: jwot-web
+      middlewares:
+        - jwot-chat-limit
+
+    contact-router:
+      rule: "Path(`/api/contact`)"
+      service: jwot-web
+      middlewares:
+        - jwot-contact-limit
