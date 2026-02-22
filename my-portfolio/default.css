@@ -1,20 +1,20 @@
 :root{
-	--background-image: linear-gradient(-105deg, #5a5551 20%, #d4d1d1 74%);
-	--mainColor:#eaeaea;
-	--secondaryColor:#d4d1d1;
+	--background-image: linear-gradient(135deg, #ffffff 0%, #f3f3f3 60%, #e9f8d9 100%);
+	--mainColor:#ffffff;
+	--secondaryColor:#f5f5f5;
 
-	--borderColor:#c1c1c1;
+	--borderColor:#1a1a1a;
 
 	--mainText:black;
-	--secondaryText:#4b5156;
+	--secondaryText:#2f2f2f;
 
-	--themeDotBorder:#24292e;
+	--themeDotBorder:#111111;
 
-	--previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
+	--previewBg:rgba(255, 255, 255, 0.92);
+	--previewShadow:#d9f4b7;
 
 
-	--buttonColor:black;
+	--buttonColor:#111111;
 
 
 }
@@ -46,7 +46,7 @@ p, li, span, label, input, textarea{
 
 a{
 	text-decoration: none;
-	color:#17a2b8;
+	color:#7fbf00;
 }
 
 ul{
@@ -211,19 +211,19 @@ h6 { font-size: 16px;}
 
 
 #light-mode{
-	background-color: #fff;
+	background-color: #f7ffe8;
 }
 
 #blue-mode{
-	background-color: #192734;
+	background-color: #111111;
 }
 
 #orange-mode{
-	background-color: #e79a26;
+	background-color: #ffffff;
 }
 
 #purple-mode{
-	background-color: #7E4C74;
+	background-color: #b8e35a;
 }
 
 #settings-note{
@@ -252,7 +252,7 @@ h6 { font-size: 16px;}
 
 #preview{
 	width: 300px;
-	border:1.5px solid #17a2b8;
+	border:1.5px solid #7fbf00;
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
@@ -262,8 +262,8 @@ h6 { font-size: 16px;}
 	width:7px;
 	height: 7px;
 	border-radius: 50%;
-	border:1.5px solid #17a2b8;
-	background-color: #fff;
+	border:1.5px solid #7fbf00;
+	background-color: #f7ffe8;
 	position: absolute;
 }
 
@@ -338,12 +338,12 @@ h6 { font-size: 16px;}
 }
 
 .post-preview{
-	background-color: #fff;
+	background-color: #f7ffe8;
 	padding:15px;
 }
 
 .post-title{
-	color:black;
+	color:#111111;
 	margin: 0;
 }
 
